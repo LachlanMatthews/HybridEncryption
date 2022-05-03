@@ -1,2 +1,2 @@
 # HybridEncryption
-Python script that performs hybrid encryption and decryption on all .jpg files in a directory. Uses the pycryptodome package for AES encryption/decryption with cypher block changing mode and to generate RSA key pairs for the hybrid encryption/decryption
+Python script that performs hybrid encryption and decryption to all .jpg files in a directory. Combines AES encryption/decryption on CBC mode (cipher block chaining) with RSA public key encryption/decryption to create a hybrid encryption/decryption script.
